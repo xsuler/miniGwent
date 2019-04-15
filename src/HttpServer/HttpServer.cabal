@@ -1,0 +1,23 @@
+--------------
+--sule
+--2017
+--------------
+
+name:                myServer
+version:             0.0.1
+author:              sule
+maintainer:          aeonsule@163.com
+category:            Web
+build-type:          Simple
+cabal-version:       >=1.8
+
+executable httpServer
+  main-is:             server.hs
+  build-depends:       base
+                     , wai
+                     , warp
+                     , http-types
+                     , text
+                     , bytestring
+                     , sqlite-simple
+                     , wai-extra
